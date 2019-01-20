@@ -1,4 +1,4 @@
-# WebDev-Lessons-HTML-1B
+# WebDev-Lessons-HTML
 You must complete the following items:
 - [ ] Fork and clone this repo to your desktop
 - [ ] Create a .html file
