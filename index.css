@@ -13,6 +13,7 @@ h2 {
 }
 .primary-paragraph {
   color: blue;
+  text-align: left;
 }
 .title-of-page {
   border: 2px solid grey;
@@ -39,16 +40,19 @@ p {
   width: 200px;
   border: solid grey;
   background-color: white;
+  text-align: left;
 }
 .added-title1 {
   height: 50px;
   width: 430px;
   border: solid grey;
   background-color: black;
+  text-align: left;
 }
 .added-title2 {
   height: 40px;
   width: 220px;
   border: solid grey;
   background-color: black;
+  text-align: left;
 }
