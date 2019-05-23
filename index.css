@@ -56,3 +56,6 @@ p {
   background-color: black;
   text-align: left;
 }
+.vehicle-image {
+  margin: auto;
+}
