@@ -1,18 +1,30 @@
+.backdrop{
+ min-height: 100%;
+ min-width: 1024px;
+ width: 100%;
+ height: auto;
+ top: 0;
+ position: absolute;
+ z-index: -1;
+}
+
+
 body {
-  color: white;
+  color:white;
   text-align: left;
+  position: fixed;
 }
 span {
-  color: red;
+  color: white;
 }
 h1 {
   color: white;
 }
 h2 {
-  color: red;
+  color: white;
 }
 .primary-paragraph {
-  color: blue;
+  color:white;
   text-align: left;
 }
 .title-of-page {
@@ -25,7 +37,7 @@ body {
   margin-bottom: 5px;
   padding: 5px;
   background-color: grey;
-}
+
 body {
   font-size: 20px;
 }
@@ -33,7 +45,7 @@ h1 {
   font-size: 50px;
 }
 .price {
-  color: red;
+  color: white;
 }
 p {
   height: 25px;
@@ -46,14 +58,14 @@ p {
   height: 50px;
   width: 430px;
   border: solid grey;
-  background-color: black;
+  background-color:white;
   text-align: left;
 }
 .added-title2 {
   height: 40px;
   width: 220px;
   border: solid grey;
-  background-color: black;
+  background-color: white;
   text-align: left;
 }
 .vehicle-image {
