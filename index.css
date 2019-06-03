@@ -66,8 +66,8 @@ button {
   font-size: 10px;
 }
 .dropdownbutton {
-  background-color: black;
-  color: white;
+  background-color:rgba(192, 192, 192, .75);
+  color: black;
   font-size:15px;
   padding:5px;
   
@@ -84,13 +84,14 @@ button {
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: silver;
+  background-color: rgba(192, 192, 192, .75);;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
  .dropdown-content a{
-   color:black
+   color:black;
+
 
 }
 .dropdown:hover .dropdown-content {display: block;}
