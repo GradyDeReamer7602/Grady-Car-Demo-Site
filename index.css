@@ -34,6 +34,9 @@ h1 {
   font-size: 50px;
   border: 3px solid rgb(100, 4, 4);
   border-radius: 5px;
+  width: 400px;
+  margin: auto;
+  
 
 }
 .primary-paragraph {
