@@ -75,7 +75,7 @@ button {
   text-align: left;
   display: inline-block;
   position: relative;
-  left: -950px;
+  left: -30vw;
 }
 .dropdown-content {
   display: none;
