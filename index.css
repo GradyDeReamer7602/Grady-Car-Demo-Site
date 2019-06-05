@@ -13,6 +13,7 @@ body {
   color:white;
   text-align: left;
   position: absolute;
+  font-size: 20px
 }
 span {
   color: white;
@@ -37,15 +38,14 @@ body {
   padding: 5px;
   background-color: grey;
 
-body {
-  font-size: 21px;
-}
-h1 {
-  font-size: 50px;
-}
+
+h1
+  font-size; 50px;
+
 .price {
   color: white;
 }
+
 p {
   height: 25px;
   width: 200px;
