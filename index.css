@@ -1,37 +1,50 @@
-.backdrop{
- min-height: 100%;
- min-width: 2080px;
- width: 100%;
- height: auto;
- top: 0;
- position: absolute;
- z-index: -1;
+body {
+  background-image: url("./images/road-3856796__480.jpg");
+  height: 1500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.main {
+  width: 40vw;
+  background-color: rgba(192, 192, 192, 0.75);
+  margin: auto;
+  color: black;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
-
-body {
-  color:white;
-  text-align: left;
+.backdrop {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0;
   position: absolute;
   font-size: 20px
 }
+
 span {
-  color: white;
+  color: black;
 }
 h1 {
-  color: white;
-}
-h2 {
-  color: white;
+  color: black;
+  font-size: 50px;
+  border: 3px solid rgb(100, 4, 4);
+  border-radius: 5px;
+  width: 40vw;
+  margin: auto;
 }
 .primary-paragraph {
-  color:white;
-  text-align: left;
+  color: black;
 }
-.title-of-page {
-  border: 2px solid white;
-  margin-bottom: 5px;
-  padding: 5px;
+.vehicle-image {
+  width: 40vw;
+  margin: auto;
+  border: 3px solid grey;
+  border-radius: 5px;
 }
 body {
   margin-bottom: 5px;
@@ -39,34 +52,32 @@ body {
   background-color: grey;
 
 
-h1
-  font-size; 50px;
-
 .price {
   color: white;
+  font-size: 10px;
 }
 
 p {
   height: 25px;
   width: 200px;
-  border: solid grey;
-  background-color: white;
-  text-align: left;
 }
-.added-title1 {
-  height: 50px;
-  width: 430px;
-  border: solid grey;
-  background-color:white;
+.dropdown {
   text-align: left;
+  display: inline-block;
+  position: relative;
+  left: -40vw;
 }
-.added-title2 {
-  height: 40px;
-  width: 220px;
-  border: solid grey;
-  background-color: white;
-  text-align: left;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(192, 192, 192, 0.75);
+  min-width: 160px;
+  z-index: 1;
 }
-.vehicle-image {
-  margin: auto;
+.dropdown-content a {
+  color: black;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+  display: inline;
 }
