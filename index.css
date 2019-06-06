@@ -79,5 +79,5 @@ p {
   display: inline-block;
 }
 .dropdown:hover .dropdown-content {
-  display: inline;
+  display: block;
 }
