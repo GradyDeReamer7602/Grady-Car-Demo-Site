@@ -88,6 +88,6 @@ p {
   color: black;
   display: block;
 }
-.dropdownbutton:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
