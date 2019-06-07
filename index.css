@@ -67,6 +67,14 @@ p {
   position: relative;
   left: -40vw;
 }
+.dropdownbutton {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  display:inline-block;
+  font-size: 16px;
+}
+  
 .dropdown-content {
   display: none;
   position: absolute;
@@ -74,14 +82,7 @@ p {
   min-width: 160px;
   z-index: 1;
 }
-.button {
-    background-color: grey;
-    color: white;
-    text-align: center;
-    display:inline-block;
-    font-size: 16px;
-  }
-    
+
     
 .dropdown-content a {
   color: black;
