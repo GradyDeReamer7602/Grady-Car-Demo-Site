@@ -74,7 +74,7 @@ p {
   min-width: 160px;
   z-index: 1;
 }
-  .dropdownbutton:hover {
+  .button:hover {
     background-color: grey;
     color: white;
     text-align: center;
@@ -87,6 +87,6 @@ p {
   color: black;
   display: inline-block;
 }
-.dropdownbutton:hover .dropdown-content {
+.button:hover .dropdown-content {
   display: block;
 }
