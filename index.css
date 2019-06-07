@@ -23,7 +23,7 @@ body {
   height: auto;
   top: 0;
   position: absolute;
-  font-size: 20px
+  z-index: -1;
 }
 
 span {
@@ -46,19 +46,30 @@ h1 {
   border: 3px solid grey;
   border-radius: 5px;
 }
-body {
-  margin-bottom: 5px;
-  padding: 5px;
-  background-color: grey;
+.added-title1 {
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
 
-
-.price {
+.list-box {
+  width: 40%;
+  margin: auto;
+}
+button {
+  background-color: black;
+  border: 5px solid rgb(100, 4, 4);
+  border-radius: 3px;
   color: white;
   font-size: 10px;
 }
-
-p {
-  height: 25px;
+.dropdownbutton {
+  background-color: rgba(192, 192, 192, 0.75);
+  color: black;
+  font-size: 15px;
+  padding: 5px;
+  border: 5px solid rgb(100, 4, 4);
   width: 200px;
 }
 .dropdown {
@@ -67,14 +78,6 @@ p {
   position: relative;
   left: -40vw;
 }
-.dropdownbutton {
-  background-color: grey;
-  color: white;
-  text-align: center;
-  display:inline-block;
-  font-size: 16px;
-}
-  
 .dropdown-content {
   display: none;
   position: absolute;
@@ -82,12 +85,10 @@ p {
   min-width: 160px;
   z-index: 1;
 }
-
-    
 .dropdown-content a {
   color: black;
-  display: block;
+  display: inline-block;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: inline;
 }
