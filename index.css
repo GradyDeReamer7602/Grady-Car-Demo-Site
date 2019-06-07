@@ -7,8 +7,8 @@ body {
   text-align: center;
 }
 .main {
-  width: 40vw;
-  background-color: rgba(192, 192, 192, 0.75);
+  width: 40%;
+  background-color:rgba(192, 192, 192, .75);
   margin: auto;
   color: black;
   padding: 20px;
@@ -27,23 +27,24 @@ body {
 }
 
 span {
-  color: black;
+  color:black;
 }
 h1 {
   color: black;
   font-size: 50px;
   border: 3px solid rgb(100, 4, 4);
   border-radius: 5px;
-  width: 40vw;
+  width: 400px;
   margin: auto;
+  
+
 }
 .primary-paragraph {
   color: black;
 }
 .vehicle-image {
-  width: 40vw;
   margin: auto;
-  border: 3px solid grey;
+  border: 3px solid grey; 
   border-radius: 5px;
 }
 .added-title1 {
@@ -58,37 +59,39 @@ ul {
   margin: auto;
 }
 button {
-  background-color: black;
+  background-color:  black;
   border: 5px solid rgb(100, 4, 4);
   border-radius: 3px;
-  color: white;
+  color:white;
   font-size: 10px;
 }
 .dropdownbutton {
-  background-color: rgba(192, 192, 192, 0.75);
-  color: black;
-  font-size: 15px;
-  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size:15px;
+  padding:5px;
+  
   border: 5px solid rgb(100, 4, 4);
   width: 200px;
+ 
+  
+
 }
-.dropdown {
-  text-align: left;
-  display: inline-block;
-  position: relative;
-  left: -40vw;
+.dropdown{
+  text-align-last: left;
+ 
 }
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
-  background-color: rgba(192, 192, 192, 0.75);
+  background-color: silver;
   min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-content a {
-  color: black;
-  display: inline-block;
+ .dropdown-content a{
+   color:black
+   display: block;
+
 }
-.dropdown:hover .dropdown-content {
-  display: inline;
-}
+.dropdown:hover .dropdown-content {display: block;}
