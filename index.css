@@ -74,10 +74,13 @@ p {
   min-width: 160px;
   z-index: 1;
 }
+  .dropdownbutton {
+    
+    
 .dropdown-content a {
   color: black;
   display: inline-block;
 }
-.dropdown:hover .dropdown-content {
+.dropdownbutton:hover .dropdown-content {
   display: block;
 }
