@@ -6,6 +6,10 @@ body {
   background-size: cover;
   text-align: center;
 }
+.title-of-page {
+  position: relative;
+  margin: auto;
+}
 .main {
   width: 40%;
   background-color:rgba(192, 192, 192, .75);
@@ -34,7 +38,8 @@ h1 {
   font-size: 50px;
   border: 3px solid rgb(100, 4, 4);
   border-radius: 5px;
-  width: 400px;
+  max-width: 600px;
+  min-width: 150px;;
   margin: auto;
   position: relative;
   
@@ -58,6 +63,7 @@ ul {
 .list-box {
   width: 40%;
   margin: auto;
+  min-width: 150px;
 }
 button {
   background-color:  black;
