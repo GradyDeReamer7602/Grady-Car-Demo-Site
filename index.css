@@ -11,7 +11,7 @@ body {
   margin: auto;
 }
 .main {
-  width: 40%;
+  width: 60%;
   background-color:rgba(192, 192, 192, .75);
   margin: auto;
   color: black;
@@ -81,8 +81,8 @@ button {
   font-size:15px;
   text-align: center;
   border: 5px solid rgb(100, 4, 4);
-
-  min-width: 150px;
+  width: 100px;
+  min-width: 50px;
   left: 0px;
   position: relative;
 
@@ -96,19 +96,19 @@ button {
 
 }
 .dropdown{
-  text-align: center;
+  text-align: left;
   left: 0px;
   position: absolute;
-  width: 100px;
+  width: 80px;
 
 
   
  }
 .dropdown-content{
   display: none;
-  position: absolute;
+  position: relative;
   background-color: rgba(192, 192, 192, .75);
-  min-width: 200px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   max-width:200px;
@@ -117,7 +117,7 @@ button {
  .dropdown-content a{
    color:black;
    position: relative;
-   width:200px;
+   width:100px;
 
 
 
