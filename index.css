@@ -6,6 +6,14 @@ body {
   background-size: cover;
   text-align: center;
 }
+.iframe{
+  margin: auto;
+  border: 3px solid grey; 
+  border-radius: 5px;
+  min-width: 150px;
+  position: relative;
+
+}
 .title-of-page {
   position: relative;
   margin: auto;
