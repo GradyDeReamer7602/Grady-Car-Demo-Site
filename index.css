@@ -6,7 +6,7 @@ body {
   background-size: cover;
   text-align: center;
 }
-.iframe{
+ iframe{
   margin: auto;
   border: 5px solid black; 
   border-radius: 5px;
